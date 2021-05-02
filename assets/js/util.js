@@ -1,9 +1,6 @@
 (function($) {
 
-	/**
-	 * Generate an indented list of links from a nav. Meant for use with panel().
-	 * @return {jQuery} jQuery object.
-	 */
+	
 	$.fn.navList = function() {
 
 		var	$this = $(this);
@@ -296,10 +293,7 @@
 
 	};
 
-	/**
-	 * Apply "placeholder" attribute polyfill to one or more forms.
-	 * @return {jQuery} jQuery object.
-	 */
+	
 	$.fn.placeholder = function() {
 
 		// Browser natively supports placeholders? Bail.
